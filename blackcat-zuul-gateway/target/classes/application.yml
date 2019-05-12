@@ -1,0 +1,19 @@
+server:
+  port: 9998
+spring:
+  application:
+    name: BLACKCAT-ZUUL-GATEWAY
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: blackcat-zuul-gateway-9998.com #起个名字
+    prefer-ip-address: true
+zuul:
+  ignored-services: "*" #用*来通配符，忽略从9998端口通过服务名来调用
+  prefix: "/services" #这是所有路径的前缀
+  routes:  #路由
+    plat:
+      path: /plat/**
+      service-id: blackcat-plat
