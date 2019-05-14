@@ -13,6 +13,7 @@
         <module>blackcat-plat-parent</module>
         <module>basic-parent</module>
         <module>blackcat-zuul-gateway</module>
+        <module>blackcat-config-server</module>
     </modules>
 
     <properties>

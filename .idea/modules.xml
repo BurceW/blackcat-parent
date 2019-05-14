@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blackcat-config-server/blackcat-config-server.iml" filepath="$PROJECT_DIR$/blackcat-config-server/blackcat-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-eureka-service/blackcat-eureka-service.iml" filepath="$PROJECT_DIR$/blackcat-eureka-service/blackcat-eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-parent.iml" filepath="$PROJECT_DIR$/blackcat-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-plat-parent/blackcat-plat-parent.iml" filepath="$PROJECT_DIR$/blackcat-plat-parent/blackcat-plat-parent.iml" />

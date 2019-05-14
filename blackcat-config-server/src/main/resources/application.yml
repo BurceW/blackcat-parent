@@ -1,0 +1,23 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: blackcat-config-server:1299.com #起个名字
+    prefer-ip-address: true
+spring:
+  profiles:
+    active: native #读取本地配置
+  application:
+    name: BLACKCAT-CONFIG-SERVER
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: C:/Users/Administrator/Desktop/blackcat/blackcatConfig/blackcat-config #本地配置所在的目录
+#        git:
+#          uri: https://github.com/BurceW/blackcat-config.git
+#          username: BurceW
+#          password: wang971019
