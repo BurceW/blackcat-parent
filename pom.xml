@@ -14,6 +14,7 @@
         <module>basic-parent</module>
         <module>blackcat-zuul-gateway</module>
         <module>blackcat-config-server</module>
+        <module>blackcat-product-parent</module>
     </modules>
 
     <properties>

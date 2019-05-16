@@ -3,7 +3,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: blackcat-zuul-gateway-9998.com #起个名字
+    instance-id: blackcat-product-9001.com #为当前服务器添加实例的标识
     prefer-ip-address: true
 #拉取配置
 spring:
@@ -11,8 +11,8 @@ spring:
       active: dev
   cloud:
     config:
-      name: application-zuul #github上面名称
-      profile: ${spring.profiles.active}
+      name: application-product #github上面名称
+      profile: ${spring.profiles.active} #环境
       label: master #分支
       discovery:
         enabled: true #从eureka上面找配置服务

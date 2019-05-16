@@ -6,24 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="basic-core" />
+        <module name="basic-generator" />
         <module name="basic-util" />
         <module name="blackcat-config-server" />
         <module name="blackcat-eureka-service" />
         <module name="blackcat-zuul-gateway" />
         <module name="plat-interface" />
         <module name="plat-service" />
+        <module name="product-interface" />
+        <module name="product-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="basic-core" target="1.5" />
+      <module name="basic-generator" target="1.5" />
       <module name="basic-parent" target="1.5" />
-      <module name="basic-util" target="1.5" />
+      <module name="basic-util" target="1.7" />
       <module name="blackcat-config-server" target="1.8" />
       <module name="blackcat-eureka-service" target="1.8" />
       <module name="blackcat-parent" target="1.5" />
       <module name="blackcat-plat-parent" target="1.5" />
+      <module name="blackcat-product-parent" target="1.5" />
       <module name="blackcat-zuul-gateway" target="1.8" />
       <module name="plat-interface" target="1.8" />
       <module name="plat-service" target="1.8" />
+      <module name="product-interface" target="1.7" />
+      <module name="product-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
