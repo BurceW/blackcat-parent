@@ -37,4 +37,13 @@ public class BaseQuery {
     public void setKeyword(String keyword) {
         this.keyword = keyword;
     }
+
+    @Override
+    public String toString() {
+        return "BaseQuery{" +
+                "page=" + page +
+                ", size=" + size +
+                ", keyword='" + keyword + '\'' +
+                '}';
+    }
 }

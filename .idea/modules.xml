@@ -6,12 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" filepath="$PROJECT_DIR$/basic-parent/basic-generator/basic-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-parent.iml" filepath="$PROJECT_DIR$/basic-parent/basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" filepath="$PROJECT_DIR$/basic-parent/basic-util/basic-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blackcat-common-parent/blackcat-common-parent.iml" filepath="$PROJECT_DIR$/blackcat-common-parent/blackcat-common-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-config-server/blackcat-config-server.iml" filepath="$PROJECT_DIR$/blackcat-config-server/blackcat-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-eureka-service/blackcat-eureka-service.iml" filepath="$PROJECT_DIR$/blackcat-eureka-service/blackcat-eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-parent.iml" filepath="$PROJECT_DIR$/blackcat-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-plat-parent/blackcat-plat-parent.iml" filepath="$PROJECT_DIR$/blackcat-plat-parent/blackcat-plat-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-product-parent/blackcat-product-parent.iml" filepath="$PROJECT_DIR$/blackcat-product-parent/blackcat-product-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-zuul-gateway/blackcat-zuul-gateway.iml" filepath="$PROJECT_DIR$/blackcat-zuul-gateway/blackcat-zuul-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blackcat-common-parent/common-interface/common-interface.iml" filepath="$PROJECT_DIR$/blackcat-common-parent/common-interface/common-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blackcat-common-parent/common-service/common-service.iml" filepath="$PROJECT_DIR$/blackcat-common-parent/common-service/common-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-plat-parent/plat-interface/plat-interface.iml" filepath="$PROJECT_DIR$/blackcat-plat-parent/plat-interface/plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-plat-parent/plat-service/plat-service.iml" filepath="$PROJECT_DIR$/blackcat-plat-parent/plat-service/plat-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/blackcat-product-parent/product-interface/product-interface.iml" filepath="$PROJECT_DIR$/blackcat-product-parent/product-interface/product-interface.iml" />
